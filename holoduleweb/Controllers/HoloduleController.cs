@@ -24,8 +24,10 @@ namespace holoduleweb.Controllers
         {
             string authorization = Request.Headers["Authorization"];
 
-            var client = new RestClient();
-            client.BaseUrl = new Uri(_dataService.BaseUrl);
+            var client = new RestClient
+            {
+                BaseUrl = new Uri(_dataService.BaseUrl)
+            };
 
             var request = new RestRequest($"holoapi/holodules/{date}", Method.GET);
             request.Parameters.Clear();

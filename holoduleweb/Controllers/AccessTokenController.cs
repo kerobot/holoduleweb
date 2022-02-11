@@ -26,8 +26,10 @@ namespace holoduleweb.Controllers
             var auth = new Auth(_dataService.UserName, _dataService.Password);
             var json = JsonConvert.SerializeObject(auth);
 
-            var client = new RestClient();
-            client.BaseUrl = new Uri(_dataService.BaseUrl);
+            var client = new RestClient
+            {
+                BaseUrl = new Uri(_dataService.BaseUrl)
+            };
 
             var request = new RestRequest("holoapi/auth", Method.POST);
             request.Parameters.Clear();
