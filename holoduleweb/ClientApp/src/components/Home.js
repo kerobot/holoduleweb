@@ -232,10 +232,12 @@ export class Common {
     }
 
     static members = {
+        "ホロライブ": { img: "hololive.jpg", ch: "UCJFZiqLMntJufDCHc6bQixg" },
         "ときのそら": { img: "tokino_sora.jpg", ch: "UCp6993wxpyDPHUpavwDFqgg" },
         "ロボ子さん": { img: "robokosan.jpg", ch: "UCDqI2jOz0weumE8s7paEk6g" },
         "さくらみこ": { img: "sakura_miko.jpg", ch: "UC-hM6YJuNYVAmUWxeIr9FeA" },
         "星街すいせい": { img: "hoshimachi_suisei.jpg", ch: "UC5CwaMl1eIgY8h02uZw7u8A" },
+        "AZKi": { img: "azki.jpg", ch: "UC0TXe_LYZ4scaW2XMyi5_kw" },
         "夜空メル": { img: "yozora_mel.jpg", ch: "UCD8HOxPs4Xvsm8H0ZxXGiBw" },
         "アキ・ローゼンタール": { img: "aki_rosenthal.jpg", ch: "UCFTLzh12_nrtzqBPsTCqenA" },
         "赤井はあと": { img: "haachama.jpg", ch: "UC1CfXB_kRs3C-zaeTG3oGyg" },
